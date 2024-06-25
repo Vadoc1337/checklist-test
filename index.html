@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Чеклист</title>
+</head>
+<body>
+<section class="checklist">
+    <div class="checklist__progress">
+        <svg width="60" height="60" viewBox="0 0 61 60" fill="none" style="transform: rotate(-90deg)">
+            <circle cx="30" cy="30" r="29.5" stroke="white" stroke-width="1px" stroke-opacity="0.5"/>
+            <circle class="checklist__progress-current" cx="30" cy="30" r="29.5" stroke="white" stroke-width="1.5px" stroke-dasharray="182px"/>
+        </svg>
+        <span class="checklist__progress-count">0/7</span>
+    </div>
+    <div class="checklist_content">
+        <h3 class="checklist__title">Чеклист</h3>
+        <span class="checklist__completed">Выполнено: 0 из 7 действий</span>
+        <span class="checklist__next-action">Следующее действие: Созвониться с клиентом до 23.05.24 12:00</span>
+    </div>
+    <button class="checklist__button">Открыть чеклист</button>
+</section>
+</body>
+</html>
